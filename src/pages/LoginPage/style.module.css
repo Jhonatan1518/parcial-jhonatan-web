@@ -1,0 +1,72 @@
+
+.main {
+    background-image: url('../../assets/fondoPanaderia.jpg') ;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardMain {
+  display: flex;
+  background-color: #F5D996;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardform {
+  width: 450px;
+  height: 23rem;
+  background-color: #F5D996;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cardform h1{
+    font-weight: 100;
+}
+.cardInfo{
+    width: 450px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputs{
+    height: 2.3rem;
+    width: 12rem;
+    margin-left: 15px;
+    border: none;
+    border-radius: 1rem;
+    padding-inline: 10px;
+}
+
+.inputUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputPass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    background-color: #F5A23A;
+    border-radius: 30px;
+    color: white;
+}

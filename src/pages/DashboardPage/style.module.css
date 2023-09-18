@@ -1,0 +1,45 @@
+.main {
+    background-image: url('../../assets/fondoPanaderia.jpg') ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 3rem;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: #F4DA97;
+  }
+  
+
+  img {
+    max-width: 100px; 
+    max-height: 100px;
+    display: block; /* Para centrar las imágenes verticalmente */
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el mensaje de "No se encontraron datos" */
+  .no-data {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #999;
+  }
+  
